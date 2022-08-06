@@ -60,7 +60,7 @@
 
 #title {
     position: absolute;
-    top: 32%;
+    top: 30%;
     left: -1%;
     right: 0;
     color: #FFF;
@@ -92,10 +92,10 @@
 .carrotSvg {
     position: absolute;
     transform: rotate(-0.8rad);
-    top: -4.2vh;
+    top: -5vh;
     height: 150px;
     width: 150px;
-    left: 53.2vw;
+    left: 52.7vw;
 }
 
 
@@ -110,78 +110,46 @@
 
 .astronaut {
     position: absolute;
-    width: 1000px;
-    height: 1000px;
-    left: -220px;
-    top: 100px;
+    width: 800px;
+    height: 800px;
+    left: 530px;
+    top: 280px;
 }
 
-
-.firstPageButtons {
+.homePageButtons {
     display: flex;
-    align-content: center;
-    justify-content: space-around;
-    width: 50%;
-    left: 25%;
-    top: 50vh;
+    flex-direction: column;
     position: relative;
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 25px;
     color: white;
+    padding: 400px 200px 50px;
 }
-
-.earth {
-    height: 300px;
-    width: 300px;
-    cursor: pointer;
-}
-
-.mars {
-    width: 300px;
-
-}
-
-.marsDiv {
-    cursor: pointer;
-    height: 65px;
-}
-
-.earthDiv {
-    cursor: pointer;
-    height: 65px;
-}
-
-.marsDiv:hover {
-    filter: sepia(105%) saturate(320%) hue-rotate(130deg) brightness(95%) contrast(100%);
-}
-
-.earthDiv:hover {
-    filter: sepia(105%) saturate(320%) hue-rotate(130deg) brightness(95%) contrast(100%);
-}
-
-.marsDiv {
-    cursor: pointer;
-}
-
-.kycButtonText {
-    top: -100px;
-    position: relative;
-    left: 65px;
-}
-
-
-.whitePaperButtonText {
-    top: -100px;
-    position: relative;
-    left: 120px;
-}
-
-
-
 
 .customButton {
     max-width: 300px;
 }
+
+.wrapperButton{
+    height: 65px;
+    margin-bottom: 25px;
+    width: 300px;
+}
+
+.wrapperButton:hover {
+    filter: sepia(105%) saturate(320%) hue-rotate(130deg) brightness(95%) contrast(100%);
+}
+
+.homePageButtons  .wrapperButton h1{
+    position: relative;
+    top: -100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    gap: 1px;
+}
+
 
 
 

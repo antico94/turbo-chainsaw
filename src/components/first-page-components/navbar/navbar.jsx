@@ -16,7 +16,6 @@ const MyComponent = () => {
                     <li>Rabbitners </li>
                     <li>Rabbitons</li>
                     <li>Guide</li>
-                    <li>Buy now</li>
                 </ul>
             </div>
         </div>

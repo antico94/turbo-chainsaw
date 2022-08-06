@@ -1,42 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
-.navbar{
+
+.navbar {
     height: 75px;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     margin: 0;
 }
 
-.logoNav{
+.logoNav {
     display: flex;
     flex-direction: row;
+    padding-left: 175px;
+    position: relative;
 }
 
-.logoNavImg{
+.logoNavImg {
     aspect-ratio: auto;
     max-width: 100px;
     max-height: 100px;
 }
 
-.logoNavText{
+.logoNavText {
     color: gold;
     font-family: 'Mouse Memoirs', sans-serif;
     left: -20px;
     position: relative;
 }
 
-.ulNavBar{
+.ulNavBar {
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     margin: 0;
-    padding: 0;
     list-style: none;
     font-size: 40px;
     color: #FFFFFF;
     font-family: 'Mouse Memoirs', sans-serif;
+        padding-right: 175px;
 }
 
-.navbarLinks{
+.navbarLinks {
     position: relative;
     top: -65px;
     width: 50%;
